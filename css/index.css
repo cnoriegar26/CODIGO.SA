@@ -1,0 +1,532 @@
+.cuerpo{
+	height: 95%;
+}
+
+.boton_barra{
+	width: 100px!important;
+	text-align: center;
+	padding: 10px;
+	font-family: Century Gothic;
+	font-size: 13px;
+	border: 0px!important;
+	color: rgba(127,127,127,1)!important;
+	margin-top: 5px;
+}
+
+.boton_barra:hover{
+	background: rgba(217,217,217,1)!important;
+	border: none!important;
+	color: white!important;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@font-face {
+    font-family: "moon";
+    font-style:normal;
+    font-weight: "800";
+    src: local("?"), url(../font/Moon-Flower-Bold.woff) format("woff"), url("../font/Moon Flower Bold.ttf") format("truetype");
+}
+
+.contenedor2 h1{
+	font-family: moon;
+	color:rgba(127,127,127,1);
+}
+
+.boton_barra:hover{
+	background: rgba(217,217,217,1);
+	border: none!important;
+	color: white;
+	text-decoration: none;
+}
+
+.barra{
+	padding-top: 1%;
+	height: 10%!important;
+	padding-left: 0;
+	background: white;
+	z-index: 100;
+}
+.nombre{
+	display: none!important;
+}
+
+@media only screen and (max-width:991px){
+	.barra2{
+		height: 8%!important;
+	}
+	.nombre{
+		display: block!important;
+	}
+	.navegador1{
+		display: block!important;
+	}
+	.navegador_2{
+		display: none!important;
+	}
+	.barra_navegador{
+		height: 50px;
+	}
+	.fondo .img{
+		height: 140px!important;
+		width: 140px!important;
+	}
+	.fondo .img2{
+		height: 140px!important;
+		width: 140px!important;
+	}
+	.footer{
+		margin-bottom: 20px!important
+	}
+}
+
+@media only screen and (max-width:767px){
+	.fondo{
+		height: 950px!important;
+		background: rgba(41,45,46,1)!important;
+	}
+	.fondo .img1 {
+		margin-bottom: 20px!important;
+	}
+	.fondo .img2 {
+		margin-bottom: 20px!important;
+	}
+	.titulo_1{
+		padding-left: 0!important;
+	}
+	.barra2{
+		height: 10%!important;
+	}
+	
+	.fondo .h1_2{
+		padding-left: 10%!important;
+	}
+	.fondo .img{
+		margin-left: 8%!important;
+	}
+	.imagen_maseta{
+		height: 200px!important;
+		width: 200px!important;
+	}
+	.imagen_oferta{
+		height: 100px!important;
+		width: 170px!important;
+	}
+	.cuadros{
+		height: 200px!important;
+		width: 100%!important;
+	}
+	.matas{
+		height: 1400px!important;
+		width: 100%!important;
+	}
+	.margen_cuadro{
+		margin-top: 300px!important;
+	}
+	.matas p{
+		padding-top: 40px!important;
+	}
+	.barra{
+		padding-left: 30px!important;
+		height: 12%!important;
+	}
+	.texto{
+		padding-top: 40px;
+	}
+}
+
+@media only screen and (max-width:1100px){
+	.img_nuestra_emp {
+	height: 250px!important;
+	width: 250px!important;
+}
+}
+
+.img_nuestra_emp {
+	height: 300px;
+	width: 350px;
+}
+
+.icono{
+	color: rgba(139,139,139,1);
+	margin-right: 8px;
+}
+
+.icono:hover{
+	color: rgba(127,127,127,1);
+}
+
+.modal{
+	font-family: Century Gothic;
+	font-size: 12px!important;
+	min-height: 82vh;
+}
+.modal p{
+	font-family: Century Gothic;
+	font-size: 11px;
+	padding: 5px;
+}
+.modal label{
+	padding-top: 5px;
+}
+
+.contenedor{
+	height:78%;
+	padding: 0!important;background: url(../img/iconos/index.png);
+	background-size: cover;
+}
+.contenedor2{
+	background: rgba(255,255,255,0.38);
+	height: 100%;
+	padding: 0!important;
+}
+
+.boton_navegador{
+	background: rgba(127,127,127,1)!important;
+	color: white!important;
+}
+
+.navegador1{
+	background: rgba(64,64,64,1);
+	font-family: moon;
+	display: none;
+}
+
+.navegador1 a{
+	color: white;
+	font-size: 25px;
+	padding: 0;
+}
+
+.navegador1 a:hover{
+	color: white;
+}
+
+.navegador1 li:hover{
+	color: white;
+	text-decoration:underline;
+}
+.navegador{
+	background: rgba(64,64,64,1);
+	font-family: moon;
+	height: 10%;
+}
+
+.navegador a{
+	color: white;
+	font-size: 25px;
+	padding: 0;
+}
+
+.navegador a:hover{
+	color: white;
+}
+
+.navegador li:hover{
+	color: white;
+	text-decoration:underline;
+}
+.menu_activo{
+	color: white;
+	text-decoration:underline;
+}
+
+.navegador li{
+	width: 13%;
+	text-align: center;
+}
+
+.barra1{
+	height: 10%!important;
+}
+
+.titulo_1{
+	font-family: moon;
+	color: rgba(150,150,150,1);
+	padding-right: 5px;
+	font-size: 35px;
+}
+
+.titulo_2{
+	font-family: moon;
+	color:green;
+}
+
+.titulo_3{
+	font-family: moon;
+	color: rgba(150,150,150,1);
+	margin: 0
+}
+.texto{
+	text-align: justify;
+	font-family:Century Gothic;
+	font-size: 15px;
+	color: rgba(150,150,150,1);
+}
+
+.firma{
+	font-family: Century Gothic;
+	font-style: oblique;
+	font-size: 13px;
+	text-align: right;
+	color: rgba(150,150,150,1);
+}
+
+.botones{
+	padding-top: 50px;
+}
+
+.botones a{
+	font-family: moon;
+	border: 1px solid rgba(150,150,150,1);
+	width: 110px;
+	height: 110px;
+	border-radius: 0;
+	font-size: 25px;
+	color: rgba(150,150,150,1)!important;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.matas p{
+	font-family: moon;
+	color: rgba(64,64,64,1);
+	font-size: 35px;
+	padding-top: 20%;
+}
+
+.cuadro_1{	
+	background: rgba(217,254,237,1);
+	height: 50%;
+	text-align: center;
+}
+
+.cuadro_2{
+	height: 50%; 
+	padding: 0!important;
+}
+
+.cuadro_3{
+	height: 50%; 
+	padding: 0!important
+}
+
+.cuadro_4{
+	background: rgba(233,241,175,1);
+	text-align: center;
+	height: 50%;
+}
+
+.cuadro_5{
+	height: 100%;
+	padding: 0!important;
+}
+
+.cuadro_6{
+	background: rgba(231,230,230,1);
+	height: 50%;
+	text-align: center;
+}
+
+.cuadro_7{
+	height: 50%; 
+	padding: 0!important
+}
+
+.nuestros_prod{
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	border: 1px solid rgba(150,150,150,1)
+}
+
+.fondo{
+	background:url(../img/iconos/fondo_gris.png);
+	height: 343px;
+	font-family: moon;
+	color: white;
+	padding: 0!important;
+	text-align: center;
+	position: relative;
+}
+
+.fondo .h1_1{
+	font-size: 30px;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	rotation: 90deg;
+	margin: 0;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+.fondo .h1_2{
+	margin: 0;
+	padding-left: 15%;
+	padding-bottom: 5px;
+	font-size: 30px;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	rotation: 90deg;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.fondo .img{
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	border: 2px solid  white;
+	height: 180px;
+	width: 180px;
+	margin-left: 17%;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	rotation: 90deg;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	padding: 0
+}
+
+.fondo .img2{
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	border: 2px solid  white;
+	height: 180px;
+	width: 180px;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	rotation: 90deg;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	padding: 0;
+	margin: 0;
+}
+
+.ver_mas{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	z-index: 100;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.ver_mas button{
+	background: none;
+	border: none;
+	font-size: 25px;
+	color: white;
+}
+
+.ver_anterior{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 100;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.ver_anterior button{
+	background: none;
+	border: none;
+	font-size: 25px;
+	color: white;
+}
+
+.ver_mas button:hover{
+	cursor: pointer;
+	color: rgba(161,200,95,1);
+}
+
+.ver_anterior button:hover{
+	cursor: pointer;
+	color:rgba(161,200,95,1);
+}
+
+.oferta{
+	padding: 0!important;
+}
+
+.oferta h1{
+	font-family: moon;
+	font-size: 25px;
+	padding-left: 20px;
+	color: rgba(150,150,150,1);
+}
+
+.oferta p{
+	font-family: Century Gothic;
+	color: rgba(150,150,150,1);
+	font-size: 15px;
+	text-align: justify;
+	padding-left: 20px;
+}
+
+.punto img{
+	padding-top: 20px;
+}
+
+.barra_gris{
+	height: 60px!important;
+	background: rgba(64,64,64,1);
+}
+
+.footer{
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid rgba(217,217,217,1);
+}
+
+.footer h1{
+	padding-top: 20px;
+	font-family: moon;
+	font-size: 25px
+}
+
+.footer p{
+	font-family:Century Gothic;
+	font-size: 11px;
+}
+
+.boton_iniciar{
+	width: 100%;
+	background: rgba(161,200,95);
+	height: 30px;
+	border: 0;
+	color: white;
+	font-weight: 800;
+	font-size: 15px;
+}
+
+.input_text{
+	width: 100%;
+	height: 30px;
+	border: 1px solid rgba(127,127,127,1);
+	padding-left: 5px;
+}
+
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+} 
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	background:  rgba(64,64,64,1)
+}

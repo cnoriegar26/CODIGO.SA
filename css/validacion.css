@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.alertaError{
+	color: #fff;
+    background: #b94a48;
+    border: solid thin #fff;
+    padding: 3px 5px;
+}
+
+.labelAlerta {
+    display: inline-block;
+}
+
+.alertaValida {
+    color: #fff;
+    background: #5CB85C;
+    border: solid thin #fff;
+    padding: 3px 5px;
+}

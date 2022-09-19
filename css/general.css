@@ -1,0 +1,333 @@
+.navegador1{
+	background: rgba(32,41,63,1.00)!important;
+	color: white!important;
+}
+
+.letra_blanca{
+	color: red!important;
+	padding-left: 5px!important;
+}
+
+.titulo{
+	color: white!important;
+}
+
+.letra_blanca:hover{
+	background: rgba(214,220,229,1.00)!important;
+	color: black!important; 
+}
+
+.boton_desplegable1{
+	background: rgba(214,220,229,1.00)!important;
+}
+
+.boton_desplegable2{
+	background: rgba(32,41,63,1.00)!important;
+}
+
+.letra_cerrar{
+	color:black!important;
+}
+
+.letra_cerrar:hover{
+	background: rgba(32,41,63,1.00)!important;
+	color: white!important;
+}
+
+.logo_circle{
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	background: white;
+}
+
+.logo_circle:hover{
+	cursor: pointer;
+	color: blue;
+}
+
+.active_1{
+	background: rgba(214,220,229,1.00)!important;
+}
+
+.navegador2{
+	background: rgba(243,243,243,1.00)!important;
+	padding: 0!important;
+	height: 100%!important;
+}
+
+
+
+.active_2{
+	background: rgba(214,220,219,1.00)!important;
+	color: rgba(162,161,161,1.00)!important;
+}
+
+.menu2{
+	background: rgba(243,243,243,1.00)!important;
+	color: rgba(104,104,104,1.00);
+	width: 100%!important;
+}
+
+
+.menu2:hover{
+	background: rgba(214,220,219,1.00)!important;
+	color: rgba(162,161,161,1.00)!important;
+}
+
+.cuerpo{
+	background: rgba(242,242,242,1.00)!important;
+	border-left: solid 5px white;
+	color: rgba(162,161,161,1.00)!important;
+	padding-bottom: 30px;
+	min-height: 750px!important;
+}
+
+.contenido_cuerpo{
+	width: 100%;
+	min-height: 530px!important;
+	background: white!important;
+	border: 1px solid rgba(177,170,170,0.3);
+}
+
+.contenido_cuerpo2{
+	width: 100%;
+	min-height: 530px!important;
+	background: white!important;
+	border-bottom: 1px solid rgba(177,170,170,0.3);
+	border-left: 1px solid rgba(177,170,170,0.3);
+	
+}
+
+.boton_titulo{
+	background: rgba(66,78,91,1.00)!important;
+	color: white!important;
+	border-radius: 0!important;
+}
+
+.boton{
+	color: rgba(32,41,63,1.00)!important;
+}
+/*tab control*/
+
+.boton:hover{
+	background: rgba(66,78,91,1.00);
+	color: white!important;
+	border-radius: 0;
+}
+
+.nav-item a{
+	color: rgba(162,161,161,1.00)!important;
+}
+
+
+/*formulario*/
+.input_text{
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+	color: rgba(162,161,161,1.00);
+}
+
+.input_select{
+	background: rgba(32,41,63,1.00);
+	color: white;
+	width: 100%;
+	border-radius: 0px!important;
+}
+
+.buscador{
+	border-radius: 0!important; 
+}
+
+
+.boton_form{
+	color: rgba(162,161,161,1.00);
+	text-align: center;
+	background: none;
+}
+
+.input_textarea{
+	width: 100%;
+	color: rgba(162,161,161,1.00);
+	padding-left: 10px;
+	text-align: left!important;
+	height: 150px;
+}
+
+.titulo_tab_control{
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	border-bottom: 1px solid rgba(177,170,170,0.3);
+}
+
+
+/*modal*/
+.letra_modal{
+	color: 	rgba(162,161,161,1.00)!important;
+}
+
+.titulo_modal{
+	background: rgba(32,41,63,1.00);
+}
+
+.cerrar_modal{
+	color: white!important;
+}
+
+.titulo_reporte{
+	border: 1px solid rgba(177,170,170,0.3);
+}
+
+.titulo_reporte h6{
+	padding-left: 15px; 
+	padding-top: 10px;
+}
+
+.cuerpo_reporte{
+	padding: 15px;
+	border-left: 1px solid rgba(177,170,170,0.3);
+	border-top: 1px solid rgba(177,170,170,0.3);
+	border-right: 1px solid rgba(177,170,170,0.3);
+	min-height: 720px;
+}
+
+.fecha{
+	color:rgba(162,161,161,1.00)!important;
+	border-radius: 0!important;
+	height: 35px;
+}
+
+.ico_fec{
+	padding: 5px;
+	font-size: 20px;
+}
+
+.tabla{
+	padding: 30px;
+	color: rgba(162,161,161,1.00);
+}
+
+.tabla2{
+	color: rgba(162,161,161,1.00);
+}
+
+/*galeria panel de control*/
+.cuadro_galeria{
+	border: 1px solid rgba(162,161,161,1.00);
+	min-height: 200px!important;
+	padding: 20px!important;
+}
+
+.imagen_galeria{
+	height: 250px;
+	width: 100%;
+	border: 1px solid rgba(162,161,161,1.00);
+	margin-bottom: 20px;
+}
+
+.reporte{
+	border:  1px solid rgba(162,161,161,1.00); 
+	margin: 18px!important;
+}
+
+.reporte .titulo_rep{
+	background: rgba(32,41,63,0.9);
+	color: white;
+	min-height: 40px;
+	padding-top: 5px;
+}
+
+.reporte .cuerpo_rep{
+	background: rgba(243,243,243,1.00);
+	min-height: 50px;
+	padding-top: 10px;
+}
+
+.archivo{
+	width: 100%;
+	border: 1px solid rgba(162,161,161,1.00);
+}
+
+.contenedor {
+	width: 95%;
+	max-width:1000px;
+	margin:auto;
+}
+ 
+.contenedor p {
+	margin-bottom:40px;
+}
+ 
+header nav {
+	background:#3498db;
+	margin-bottom:10px;
+}
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+}
+ 
+header nav ul li a:hover {
+	background:#2980b9;
+}
+ 
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+
+.colapse{
+	border-radius: 0px!important;
+}
+
+.cuadro_prod_fact{
+	padding-top: 15px; 
+	border: 1px solid rgba(177,170,170,0.3);
+	margin-bottom: 30px; 
+	margin-top: 20px;
+}
+
+.estado_compra{
+	width: 130px;
+	border-radius: 0!important;
+	padding: 13px!important;
+	font-size: 13px;
+	color:rgba(64,64,64,1);
+}
+
+.datos_envio{
+	margin: 0;
+}
+
+.pag a{
+	color:rgba(32,41,63,1.00);
+}
+
+.pag a:hover{
+	color:rgba(32,41,63,1.00);
+}
+
+.pag_active{
+	background: rgba(32,41,63,1.00)!important;
+	color: white!important;
+}

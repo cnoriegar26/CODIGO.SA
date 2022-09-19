@@ -1,0 +1,59 @@
+.contenedor{
+	width: 100%; 
+	min-height: 1500px; 
+	border-left: 5px solid rgba(214,220,229,1.00);
+	border-bottom: 5px solid rgba(214,220,229,1.00);
+}
+
+.contenedor2{
+	width: 100%; 
+	min-height: 1500px; 
+	border-left: 2px solid rgba(162,161,161,1.00); 
+	border-bottom: 2px solid rgba(162,161,161,1.00);
+}
+
+.empresa{
+	padding-left: 50px!important; 
+	padding-top: 50px!important;
+}
+
+.lema{
+	text-align: center;
+	padding-left: 50px; 
+	padding-top: 50px;
+}
+
+.n_factura{
+	padding-left: 50px!important; 
+	padding-top: 30px!important;
+}
+
+.info_cliente{
+	padding-left: 50px!important; 
+	padding-top: 30px!important;
+}
+
+.tit_cuer_factura{
+	padding-top: 30px!important; 
+	padding-left: 30px!important; 
+}
+
+.tit_cuer_factura2{
+	padding-left: 20px; 
+	padding-bottom:10px; 
+	padding-top:10px; 
+	color: blue; 
+	border-top: 1px solid rgba(214,220,229,1.00); 
+	border-bottom: 1px solid rgba(214,220,229,1.00);  
+}
+
+.contenido_fact{
+	padding-left: 25px!important; 
+}
+
+.contenido_fact2{
+	padding-left: 20px!important; 
+	padding-bottom:1px!important; 
+	padding-top:1px!important;  
+	border-bottom: 1px solid rgba(214,220,229,1.00);
+}
